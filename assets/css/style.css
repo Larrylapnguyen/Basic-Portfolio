@@ -1,0 +1,161 @@
+body {
+    padding: 0;
+    background-color: #fff;
+    font-size: 15px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 0;
+    background-image: url(../img/circuit.png);
+    color: #777;
+    margin-bottom: 10px;
+}
+
+/* Global */
+.container {
+    width: 100%;
+    max-width: 960px;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+/*Header*/
+header {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #fff;
+    color: #000;
+    min-height: 79px;
+    border-bottom: #ccc 1px solid;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #777;
+}
+
+header li {
+    float: left;
+    padding: 0 16px 0 16px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+header #logo {
+    float: left;
+    color: #fff;
+    background: #4aaaa5;
+}
+
+header #logo h1 {
+    padding: 0;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+header nav {
+    float: right;
+}
+
+header a:hover {
+    background: #4aaaa5;
+    outline-width: 20px;
+    outline-color: #4aaaa5;
+    outline-style: solid;
+    color: #fff;
+}
+
+header .border {
+    border-right: #dddddd7c 1px solid;
+    border-left: #dddddd7c 1px solid;
+}
+
+/*Section*/
+section {
+    background-color: #fff;
+    margin-top: 40px;
+    padding: 15px;
+}
+
+h2 {
+    color: #4aaaa5;
+    border-bottom: #ddd 2px solid;
+    width: 98%;
+    margin: auto;
+}
+
+section h2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+section img {
+    float: left;
+    margin-top: 20px;
+    padding-left: 10px;
+    margin-right: 20px;
+}
+
+section p {
+    margin-left: 10px;
+    line-height: 1.8em;
+}
+
+/*Footer*/
+.feet {
+    width: 100%;
+    margin: auto;
+    bottom: 0;
+    position: absolute;
+    border-top: #4aaaa5 7px solid;
+    background-color: #666;
+}
+
+div .foot {
+    width: 100%;
+    padding: 5px;
+    margin-top: 20px;
+    border-top: #4aaaa5 7px solid;
+    background-color: #666;
+}
+
+footer p {
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+}
+
+/*Portfolio*/
+.port{
+    height: 600px;
+}
+
+/*Contact*/
+.con div {
+    padding: .5px;
+}
+
+.con form {
+    padding: 10px 10px 0 10px;
+}
+
+.con button {
+    background-color: #4aaaa5;
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+}
+
+.con input,
+textarea {
+    width: 100%;
+}

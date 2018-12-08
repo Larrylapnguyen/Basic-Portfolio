@@ -11,7 +11,8 @@ body{
 /*End-Global*/
 header{
   color: #fff;
-  border-bottom: 1px solid #ccc;
+  width: 65%;
+  background-color: #000;
 }
 header h1{
   margin-left: 100px;
@@ -19,6 +20,10 @@ header h1{
   padding: 17px;
   background-color: #4aaaa5;
   float: left;
+}
+nav{
+  width: 25%;
+  background-color: #000;
 }
 nav li{
   float: left;
